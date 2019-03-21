@@ -84,7 +84,6 @@ const categAction =()=>{
                 <p>${data.Genre}</p>
                 <p>${data.Year}</p>
                 <p class="card-text">${data.Plot}</p>
-                <a href="https://www.imdb.com/title/${data.imdbID}&apikey=d80a3aef" class="btn btn-primary">imdbID Oficial</a>
               </div>
             </div>
             <p class="mt-3 w-100 float-left text-center"><strong>Card with Floting Picture</strong></p>
