@@ -4,5 +4,14 @@
 }
 
 .carousel, .carousel-inner, .item, .logo-image {
-  height: 400px;
+  height: 500px;
+  margin-top: 0.2rem;
+}
+
+body{
+  background: black;
+}
+
+.navbar-brand{
+  margin-left: 10%;
 }
