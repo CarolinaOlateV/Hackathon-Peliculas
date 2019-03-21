@@ -67,7 +67,7 @@ const categAction =()=>{
  
     const getData = (condition) => {
     let dataBase = [];
-        fetch (`http://www.omdbapi.com/?i=tt${condition}&apikey=d80a3aef`)// le damos la ruta que queremos seguir, si es una api publicada le damos la url que queremos que siga
+        fetch (`https://www.omdbapi.com/?i=tt${condition}&apikey=d80a3aef`)// le damos la ruta que queremos seguir, si es una api publicada le damos la url que queremos que siga
         .then(Response => {
             return Response.json()// va a leer los archivos json
         })
