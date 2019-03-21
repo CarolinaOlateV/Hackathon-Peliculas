@@ -52,14 +52,7 @@
             </div>
             <p class="mt-3 w-100 float-left text-center"><strong>Card with Floting Picture</strong></p>
         </div>`
-    //         <div class="card" style="width: 13rem;">
-    //   <img src="${data.Poster}" class="card-img-top" alt="...">
-    //   <div class="card-body">
-    //     <p class="card-text">${data.Title}</p>
-    //     <p>${data.Genre}</p>
-    //     <p>${data.Year}</p>
-    //     <p>${data.Plot}</p>
-    // </div></div>
+   
             seeData(data);// aqui llamo la funcion que declaramos mas abajo
         })
         .catch(error => error)
