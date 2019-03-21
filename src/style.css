@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.carousel, .carousel-inner, .item, .logo-image {
+  height: 500px;
+  margin-top: 0.2rem;
+}
+
+body{
+  background: black;
+}
+
+.navbar-brand{
+  margin-left: 10%;
+}
