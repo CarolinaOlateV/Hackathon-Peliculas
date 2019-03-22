@@ -3,10 +3,6 @@
     padding: 0%;
 }
 
-.banner {
-    text-align: center;
-  }
-
 .carousel, .carousel-inner, .item, .logo-image {
   height: 500px;
   margin-top: 2rem;
